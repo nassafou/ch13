@@ -1,0 +1,8 @@
+# compte les lignes vides d'un fichier
+
+/^$/ { 
+      x += 1
+}
+END {
+       print x
+}

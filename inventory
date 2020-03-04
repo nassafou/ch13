@@ -1,0 +1,30 @@
+localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python"
+ 
+ [all:vars]
+ 
+ dockerhub_base=ansible
+ 
+ awx_task_hostname=awx
+ awx_web_hostname=awxweb
+ postgres_data_dir=/var/lib/pgdocker
+ host_port=8080
+ 
+ use_docker_compose=true
+ docker_compose_dir=/var/lib/awx
+ 
+ pg_username=awx
+ pg_password=hakaseposgresawx
+ pg_database=awx
+ pg_port=5432
+ 
+ rabbitmq_password=hakaserabbitmqawx
+ rabbitmq_erlang_cookie=cookiemonster
+ 
+ admin_user=hakase
+ admin_password=hakasepass
+ 
+ create_preload_data=True
+ 
+ secret_key=cf43a0875afdacc0f193173457c682e47a47105162e5d035956ffe0502444620
+ 
+ project_data_dir=/var/lib/awx/projects
