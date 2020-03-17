@@ -1,0 +1,22 @@
+---
+ - name: "plabook install apache"
+   hosts: apache
+   gather_facts: no
+   become: yes 
+   tasks: 
+     - name: install apache
+       yum: 
+          name: apache2 
+          state: present
+     - name: "apache configuration "
+       template:
+          src: "inventaire.conf.j2"
+          dest: "/etc/apache2/sites-available/inventory.conf"
+          owner: "bob"
+          group: "bob"
+     - name: "start apache service"
+       service:
+          name: apache2
+          state: restarted
+          enabled: yes 
+       tags: [ "restart" ]

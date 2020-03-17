@@ -22,6 +22,7 @@
         networks:
           - name:     "{{network_name}}"
         image:        "{{docker_image|d('centos/systemd')}}"
+#        command:      RUN yum install vim-enhanced -y
         volumes:      [ '/run', '/sys/fs/cgroup' ]
         privileged:   yes
         state:        started

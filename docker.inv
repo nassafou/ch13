@@ -10,9 +10,9 @@ mysql1
 [haproxy]
 haproxy1
 
-[haproxy:vars]
-docker_image="custom-ubuntu"
+
 
 [all:vars]
 network_name=test.eni
 ansible_connection=docker
+docker_image="custom-ubuntu"
