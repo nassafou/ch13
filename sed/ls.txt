@@ -1,0 +1,4 @@
+===Début===
+/etc/passwd
+/etc/passwd-
+===Fin===
