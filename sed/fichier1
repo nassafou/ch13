@@ -1,0 +1,182 @@
+grep: /etc/ImageMagick-6: Is a directory
+grep: /etc/NetworkManager: Is a directory
+grep: /etc/UPower: Is a directory
+grep: /etc/X11: Is a directory
+grep: /etc/acpi: Is a directory
+grep: /etc/alternatives: Is a directory
+/etc/anacrontab:HOME=/root
+/etc/anacrontab:LOGNAME=root
+grep: /etc/ansible: Is a directory
+grep: /etc/apm: Is a directory
+grep: /etc/apparmor: Is a directory
+grep: /etc/apparmor.d: Is a directory
+grep: /etc/apport: Is a directory
+grep: /etc/apt: Is a directory
+grep: /etc/aptdaemon: Is a directory
+grep: /etc/at-spi2: Is a directory
+grep: /etc/avahi: Is a directory
+/etc/bash.bashrc:# set variable identifying the chroot you work in (used in the prompt below)
+/etc/bash.bashrc:if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+/etc/bash.bashrc:    debian_chroot=$(cat /etc/debian_chroot)
+/etc/bash.bashrc:PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+/etc/bash.bashrc:	To run a command as administrator (user "root"), use "sudo <command>".
+/etc/bash.bashrc:	See "man sudo_root" for details.
+grep: /etc/bash_completion.d: Is a directory
+grep: /etc/binfmt.d: Is a directory
+grep: /etc/bluetooth: Is a directory
+grep: /etc/brltty: Is a directory
+grep: /etc/ca-certificates: Is a directory
+/etc/ca-certificates.conf:mozilla/Comodo_AAA_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_Secure_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_Trusted_Services_root.crt
+grep: /etc/calendar: Is a directory
+grep: /etc/chatscripts: Is a directory
+grep: /etc/compizconfig: Is a directory
+grep: /etc/console-setup: Is a directory
+grep: /etc/containerd: Is a directory
+grep: /etc/cracklib: Is a directory
+grep: /etc/cron.d: Is a directory
+grep: /etc/cron.daily: Is a directory
+grep: /etc/cron.hourly: Is a directory
+grep: /etc/cron.monthly: Is a directory
+grep: /etc/cron.weekly: Is a directory
+/etc/crontab:17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+/etc/crontab:25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+/etc/crontab:47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+/etc/crontab:52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+grep: /etc/cups: Is a directory
+grep: /etc/cupshelpers: Is a directory
+grep: /etc/dbus-1: Is a directory
+grep: /etc/dconf: Is a directory
+grep: /etc/default: Is a directory
+grep: /etc/depmod.d: Is a directory
+grep: /etc/dhcp: Is a directory
+grep: /etc/dictionaries-common: Is a directory
+grep: /etc/dnsmasq.d: Is a directory
+grep: /etc/doc-base: Is a directory
+grep: /etc/docker: Is a directory
+grep: /etc/dpkg: Is a directory
+grep: /etc/emacs: Is a directory
+grep: /etc/firefox: Is a directory
+grep: /etc/fonts: Is a directory
+/etc/fuse.conf:# Set the maximum number of FUSE mounts allowed to non-root users.
+/etc/fuse.conf:# Allow non-root users to specify the allow_other or allow_root mount options.
+grep: /etc/gconf: Is a directory
+grep: /etc/gdb: Is a directory
+grep: /etc/ghostscript: Is a directory
+grep: /etc/gnome: Is a directory
+grep: /etc/gnome-app-install: Is a directory
+grep: /etc/groff: Is a directory
+/etc/group:root:x:0:
+grep: /etc/group-: Permission denied
+grep: /etc/grub.d: Is a directory
+grep: /etc/gshadow: Permission denied
+grep: /etc/gshadow-: Permission denied
+grep: /etc/gss: Is a directory
+grep: /etc/gtk-2.0: Is a directory
+grep: /etc/gtk-3.0: Is a directory
+grep: /etc/guest-session: Is a directory
+/etc/hdparm.conf:## the keyword 'command_line' are not run until after the root filesystem
+/etc/hdparm.conf:## to run hdparm to set parameters for your root disk, please use the 
+grep: /etc/hp: Is a directory
+grep: /etc/ifplugd: Is a directory
+grep: /etc/init: Is a directory
+grep: /etc/init.d: Is a directory
+grep: /etc/initramfs-tools: Is a directory
+grep: /etc/insserv: Is a directory
+grep: /etc/insserv.conf.d: Is a directory
+grep: /etc/iproute2: Is a directory
+grep: /etc/java-8-openjdk: Is a directory
+grep: /etc/kbd: Is a directory
+grep: /etc/kernel: Is a directory
+Binary file /etc/ld.so.cache matches
+grep: /etc/ld.so.conf.d: Is a directory
+grep: /etc/ldap: Is a directory
+grep: /etc/libnl-3: Is a directory
+grep: /etc/libpaper.d: Is a directory
+grep: /etc/libreoffice: Is a directory
+grep: /etc/lightdm: Is a directory
+grep: /etc/logcheck: Is a directory
+/etc/login.defs:# (examples: 022 -> 002, 077 -> 007) for non-root users, if the uid is
+/etc/logrotate.conf:su root syslog
+/etc/logrotate.conf:    create 0664 root utmp
+/etc/logrotate.conf:    create 0660 root utmp
+grep: /etc/logrotate.d: Is a directory
+/etc/ltrace.conf:int   SYS_chroot(string);
+/etc/mailcap.order:#  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
+grep: /etc/modprobe.d: Is a directory
+grep: /etc/modules-load.d: Is a directory
+grep: /etc/mysql: Is a directory
+grep: /etc/network: Is a directory
+grep: /etc/newt: Is a directory
+grep: /etc/nginx: Is a directory
+grep: /etc/opensc: Is a directory
+grep: /etc/openvpn: Is a directory
+grep: /etc/opt: Is a directory
+grep: /etc/pam.d: Is a directory
+/etc/passwd:root:x:0:0:root:/root:/bin/bash
+grep: /etc/passwd-: Permission denied
+grep: /etc/pcmcia: Is a directory
+grep: /etc/perl: Is a directory
+grep: /etc/pki: Is a directory
+grep: /etc/pm: Is a directory
+grep: /etc/polkit-1: Is a directory
+grep: /etc/postgresql: Is a directory
+grep: /etc/postgresql-common: Is a directory
+grep: /etc/ppp: Is a directory
+grep: /etc/profile.d: Is a directory
+grep: /etc/pulse: Is a directory
+grep: /etc/python: Is a directory
+grep: /etc/python2.7: Is a directory
+grep: /etc/python3: Is a directory
+grep: /etc/python3.5: Is a directory
+grep: /etc/rc0.d: Is a directory
+grep: /etc/rc1.d: Is a directory
+grep: /etc/rc2.d: Is a directory
+grep: /etc/rc3.d: Is a directory
+grep: /etc/rc4.d: Is a directory
+grep: /etc/rc5.d: Is a directory
+grep: /etc/rc6.d: Is a directory
+grep: /etc/rcS.d: Is a directory
+grep: /etc/reader.conf.d: Is a directory
+grep: /etc/resolvconf: Is a directory
+grep: /etc/rsyslog.d: Is a directory
+grep: /etc/sane.d: Is a directory
+/etc/securetty:# /etc/securetty: list of terminals on which root is allowed to login.
+grep: /etc/security: Is a directory
+grep: /etc/selinux: Is a directory
+grep: /etc/sensors.d: Is a directory
+/etc/services:rootd		1094/tcp
+/etc/services:rootd		1094/udp
+grep: /etc/sgml: Is a directory
+grep: /etc/shadow: Permission denied
+grep: /etc/shadow-: Permission denied
+grep: /etc/signon-ui: Is a directory
+grep: /etc/skel: Is a directory
+grep: /etc/speech-dispatcher: Is a directory
+grep: /etc/ssh: Is a directory
+grep: /etc/ssl: Is a directory
+grep: /etc/subgid-: Permission denied
+grep: /etc/subuid-: Permission denied
+grep: /etc/subversion: Is a directory
+grep: /etc/sudoers: Permission denied
+grep: /etc/sudoers.d: Is a directory
+grep: /etc/sysctl.d: Is a directory
+grep: /etc/sysstat: Is a directory
+grep: /etc/systemd: Is a directory
+grep: /etc/terminfo: Is a directory
+grep: /etc/thermald: Is a directory
+grep: /etc/thunderbird: Is a directory
+grep: /etc/tmpfiles.d: Is a directory
+grep: /etc/udev: Is a directory
+grep: /etc/udisks2: Is a directory
+grep: /etc/ufw: Is a directory
+grep: /etc/update-manager: Is a directory
+grep: /etc/update-motd.d: Is a directory
+grep: /etc/update-notifier: Is a directory
+/etc/updatedb.conf:PRUNEPATHS="/tmp /var/spool /media /home/.ecryptfs /var/lib/schroot"
+grep: /etc/usb_modeswitch.d: Is a directory
+grep: /etc/vim: Is a directory
+grep: /etc/wpa_supplicant: Is a directory
+grep: /etc/xdg: Is a directory
+grep: /etc/xml: Is a directory

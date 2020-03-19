@@ -1,0 +1,5 @@
+Binary file /etc/ld.so.cache matches
+/etc/services:snmp		161/tcp				# Simple Net Mgmt Protocol
+/etc/services:snmp		161/udp
+/etc/services:snmp-trap	162/tcp		snmptrap	# Traps for SNMP
+/etc/services:snmp-trap	162/udp		snmptrap
