@@ -1,0 +1,20 @@
+#! /bin/sh
+
+while true; do 
+  echo -n "[commande]>"
+  if ! read chaine ; then 
+      echo "Saisie invalide "
+      break
+  fi 
+  if [ -z "$chaine" ] ; then 
+     echo "Saisie vide"
+     break
+  fi
+  if [ "$chaine" = "fin" ] ; then
+     echo "Fin demand√e"
+     break
+  fi
+  eval $chaine
+done
+echo "Au revoir"
+
